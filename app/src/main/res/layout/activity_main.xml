@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="piao.yezi.pentaxk1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="光圈"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+                <piao.yezi.pentaxk1.WheelView
+                    android:id="@+id/tv11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="快门"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="快门"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+                <piao.yezi.pentaxk1.WheelView
+                    android:id="@+id/tv12"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="光圈"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="ISO"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+                <piao.yezi.pentaxk1.WheelView
+                    android:id="@+id/tv13"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="光圈"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="曝光补偿"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+                <piao.yezi.pentaxk1.WheelView
+                    android:id="@+id/tv21"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="光圈"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="白平衡"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+                <piao.yezi.pentaxk1.WheelView
+                    android:id="@+id/tv22"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="光圈"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="色彩模式"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_18sp"/>
+
+                <piao.yezi.pentaxk1.WheelView
+                    android:id="@+id/tv23"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="光圈"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            android:padding="1dp">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14sp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="信息2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_20sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
